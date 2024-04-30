@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEV_SWING_SHARE }}
           channelId: live
           projectId: dev-swing-share
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks

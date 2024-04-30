@@ -19,3 +19,5 @@ jobs:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_DEV_SWING_SHARE }}
           projectId: dev-swing-share
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
